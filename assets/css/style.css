@@ -1,0 +1,77 @@
+/* Font base */
+html{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+/* Header */
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 30px;
+}
+
+header div a.get-started,
+.left-jumbo a:nth-of-type(1){
+    padding: 2px 15px;
+}
+
+header div a img{
+    height: 100%;
+    scale: 1.1;
+}
+
+
+
+/* Main  */
+main{
+    padding-top: 88px;
+}
+
+h1{
+    font-size: 6em;
+    font-weight: 700;
+    padding-top: 80px;
+    /* padding-bottom: 80px; */
+}
+
+.container{
+    width: 60%;
+}
+
+/* Jumbo */
+.jumbo{
+    width: 80%;
+    margin: 0   auto;
+}
+
+.left-jumbo{
+    width: 30%;
+    font-weight: 400;
+}
+
+.right-jumbo{
+    width: 70%;
+}
+
+.right-jumbo img{
+    width: 100%;
+    bottom: -80px;
+}
+
+.left-jumbo p:last-of-type{
+    font-size: 1em;
+}  
+
+.left-jumbo a:first-of-type{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+/* Sezione Abbonamenti */
+
+h2{
+    font-size: 3.5em;
+}
