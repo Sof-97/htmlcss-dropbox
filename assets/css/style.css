@@ -10,6 +10,7 @@ header{
     left: 0px;
     right: 0px;
     padding: 30px;
+    z-index: 1;
 }
 
 header div a.get-started,
@@ -22,6 +23,25 @@ header div a img{
     scale: 1.1;
 }
 
+/* Header e Menù drop down */
+
+.menu-prova{
+    border: 1px solid #ccc;
+    padding: 15px;
+    display: none;
+    position: absolute;
+    top: 1.5em;
+    left: 0;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+header .fl-right a:hover + .menu-prova,
+.menu-prova:hover{
+    display: inline;
+}
 
 
 /* Main  */
@@ -89,6 +109,40 @@ h2{
 form:checked{
     height: 5em;
 }
+
+/* NOTE Prova cambio radio checked */
+
+input[type="radio"]{
+    display: none;
+}
+
+[type="radio"] + label{
+    cursor: pointer;
+}
+
+input[type="radio"] + label::before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #7a7a7a;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px; 
+}
+
+label::before{
+    transition: 0.5s ease-in;
+}
+
+input[type="radio"]:checked + label::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 5px solid #0061ff;
+}
+/* Fine accrocchio */
+
 
 .plan-column div{
     text-align: center;
