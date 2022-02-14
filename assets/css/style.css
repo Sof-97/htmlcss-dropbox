@@ -1,3 +1,6 @@
+html{
+    font-size: 22px;
+}
 /* NOTE Font base */
 html{
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
@@ -30,7 +33,7 @@ header div a img{
     padding: 15px;
     display: none;
     position: absolute;
-    top: 1.5em;
+    top: 1.5rem;
     left: 0;
 }
 
@@ -52,7 +55,7 @@ main{
 }
 
 h1{
-    font-size: 6em;
+    font-size: 6rem;
     font-weight: 700;
     padding-top: 80px;
     /* padding-bottom: 80px; */
@@ -83,7 +86,7 @@ h1{
 }
 
 .left-jumbo p:last-of-type{
-    font-size: 1em;
+    font-size: 1rem;
 }  
 
 .left-jumbo a:first-of-type{
@@ -95,11 +98,11 @@ h1{
 /* NOTE Sezione Abbonamenti */
 
 h2{
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 form:checked{
-    height: 5em;
+    height: 5rem;
 }
 
 
@@ -163,13 +166,13 @@ input[type="radio"]:checked + label::before{
 }
 
 .users{
-    font-size: 0.8em;
+    font-size: 0.8rem;
     color: #aaa ;
 }
 
 .features{
-    font-size: 0.9em;
-    line-height: 2.5em;
+    font-size: 0.9rem;
+    line-height: 2.5rem;
     margin-left: 10px;
 }
 
@@ -215,7 +218,7 @@ input[type="radio"]:checked + label::before{
     width: 100%;
 }
 .row-column h4{
-    font-size: 1.7em;
+    font-size: 1.7rem;
 }
 
 .row-column:nth-child(2){
@@ -235,19 +238,81 @@ input[type="radio"]:checked + label::before{
 }
 
 .description-business{
+    background-color: #F5F5F5;
     width: 40%;
     overflow-y: auto;
 }
-
+/* TODO Fixare blocco centrale in altezza */
 .logo-business{
     width: 50%;
-    border: 1px solid red;
+    padding-top: 50%;    
 }
 
 .logo-business img{
-    width: 50%;
+    width: 70%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* filter: invert(100%); */
+    filter: invert(100%);
+}
+
+.description-business img{
+    width: 20%;
+}
+
+.description-business hr{
+    color: #ccc;
+    width: 15%;
+}
+
+/* NOTE Colori loghi */
+
+.logo-business.designit{
+    background-color: #A2D39B;
+}   
+
+.logo-business.arizona{
+    background-color: #61082B;
+}
+
+.logo-business.clear-channel{
+    background-color: #0093CE;
+}
+
+.logo-business.hearst{
+    background-color: #FF1C1C;
+}
+
+.logo-business.bicycle{
+    background-color: #D5001F;
+}
+
+.logo-business.lonely-planet{
+    background-color: #B4D0E7;
+}
+
+.logo-business.topps{
+    background-color: #0D2481;
+}
+
+.logo-business.florida{
+    background-color: #FFD830;
+}
+
+/* Focus selezione Logo */
+.logo-business:focus{
+    box-shadow:  inset 0px 0px 0px 10px      rgba(255, 255, 255, 0.6);
+}
+
+/* SECTION Last call to action */
+
+.lto h2{
+    color: #61082B;
+    font-size: 3rem;
+}
+
+.lto a{
+    padding: 10px 30px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
 }

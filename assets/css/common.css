@@ -50,6 +50,10 @@ ul {
 	background-color: #f6f6f6;
 }
 
+.bg-lightblue{
+	background-color: #B4D0E7;
+}
+
 /* General Selector */
 
 .disp-iblock {
@@ -70,6 +74,10 @@ ul {
 
 .p-40{
 	padding: 40px;
+}
+
+.p-100{
+	padding: 100px;
 }
 
 .p-10-0{
@@ -133,6 +141,14 @@ ul {
 	width: 30%;
 }
 
+.wdt-40{
+	width: 40%;
+}
+
+.wdt-50{
+	width: 50%;
+}
+
 .wdt-15 {
 	width: 15%;
 }
@@ -183,4 +199,8 @@ ul {
 
 .mg-bot-15{
 	margin-bottom: 15px;
+}
+
+.mg-top-30{
+	margin-top: 30px;
 }
