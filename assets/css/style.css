@@ -240,6 +240,7 @@ input[type="radio"]:checked + label::before{
 .description-business{
     background-color: #F5F5F5;
     width: 40%;
+    max-height: 100%;
     overflow-y: auto;
 }
 /* TODO Fixare blocco centrale in altezza */
@@ -321,11 +322,11 @@ input[type="radio"]:checked + label::before{
 /* SECTION Faq */
 
 .faq{
-    border: solid #aaa;
-    border-width: 1px 0;
+    position: relative;
+    border-bottom: 1px solid #aaa;
     height: 4rem;
     overflow: hidden;
-    transition: 5s ease-in-out;
+    transition: height  1s ease-in-out;
 }
 
 .faq span{
@@ -334,8 +335,10 @@ input[type="radio"]:checked + label::before{
 }
 
 .faq i{
-    position: relative;
-    left: 27%;
+    position: absolute;
+    right: 10px;
+    top: 1.5em;
+    transition: 1s linear;
 }
 
 .faq p{     
@@ -343,8 +346,13 @@ input[type="radio"]:checked + label::before{
 }
 
 
-.faq::hover{
-    height: max-content;
+.faq:hover{
+    height: 260PX;
+    /* FIXME Fit-content non funziona */
+}
+
+.faq:hover i{
+    transform: rotate(180deg);
 }
 
 
