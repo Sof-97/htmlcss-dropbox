@@ -60,8 +60,20 @@ ul {
 	display: block;
 }
 
+.p-5-30{
+	padding: 5px 20px;
+}
+
 .p-20 {
 	padding: 20px;
+}
+
+.p-10-0{
+	padding: 10px 0	;
+}
+
+.p-10{
+	padding: 10px;
 }
 
 .pd-top-10{
@@ -78,6 +90,10 @@ ul {
 
 .pd-top-150{
 	padding-top: 150px;
+}
+
+.pad-bot-100{
+	padding-bottom: 100px;
 }
 
 .txt-clear {
@@ -112,8 +128,16 @@ ul {
 	width: 15%;
 }
 
+.wdt-30{
+	width: 30%;
+}
+
 .wdt-60 {
 	width: 60%;
+}
+
+.wdt-70{
+	width: 70%;
 }
 
 .vh-100 {
@@ -142,4 +166,12 @@ ul {
 
 .font-3{
 	font-size: 3em;
+}
+
+.lh-2em{
+	line-height: 2em;
+}
+
+.mg-bot-15{
+	margin-bottom: 15px;
 }
