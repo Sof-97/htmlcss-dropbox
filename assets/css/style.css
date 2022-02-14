@@ -316,3 +316,50 @@ input[type="radio"]:checked + label::before{
     border: 1px solid #ddd;
     font-size: 1rem;
 }
+
+
+/* SECTION Faq */
+
+.faq{
+    border: solid #aaa;
+    border-width: 1px 0;
+    height: 4rem;
+    overflow: hidden;
+    transition: 5s ease-in-out;
+}
+
+.faq span{
+    font-weight: bold;
+    line-height: 4rem;
+}
+
+.faq i{
+    position: relative;
+    left: 27%;
+}
+
+.faq p{     
+    padding: 20px;
+}
+
+
+.faq::hover{
+    height: max-content;
+}
+
+
+/* SECTION Footer */
+
+.footer-column{
+    width: calc(100%/5);
+    font-size: 0.8rem;
+}
+
+footer{
+    padding: 50px;
+}
+
+footer > hr{
+    width: 20%;
+}
+
