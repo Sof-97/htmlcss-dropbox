@@ -176,9 +176,15 @@ input[type="radio"]:checked + label::before{
     margin-left: 10px;
 }
 
-.features li::marker{
-    content:  url(../img/check.png);
+ul.fa-ul i.fa-check{
+    color: #0061ff;
 }
+
+    /* Versione alternativa marker
+    .features li::marker{
+        content:  url(../img/check.png);
+    } */
+
 
 .plan-row{
     border: 2px solid #ccc;
