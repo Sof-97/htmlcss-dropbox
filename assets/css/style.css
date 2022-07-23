@@ -55,6 +55,7 @@ main{
 }
 
 h1{
+    line-height: 6rem;
     font-size: 6rem;
     font-weight: 700;
     padding-top: 80px;
